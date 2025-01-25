@@ -1,0 +1,50 @@
+{
+    "patientDetails": {
+      "firstName": "First name of the patient",
+      "lastName": "Last name of the patient",
+      "age": "Age of the patient",
+      "dateOfBirth": "Patient's date of birth in YYYY-MM-DD format",
+      "gender": "Gender of the patient (Male/Female/Other)",
+      "dateOfExamination": "Date of the examination in YYYY-MM-DD format",
+      "examinationType": "Pre op or Post op"
+    },
+    "toothData": [
+      {
+        "toothNumber": "Tooth number (1-32)",
+        "jaw": "Upper or Lower",
+        "surface": "Buccal, Palatal, or Lingual",
+        "toothPresence": "P for Present, M for Missing, I for Implant",
+        "mobility": "Mobility level (0-3)",
+        "furcation": "Furcation level (0-3)",
+        "gingivalMargin": {
+          "D": "Gingival margin for distal (0, R for recession, or O for overgrowth)",
+          "C": "Gingival margin for central (same as above)",
+          "M": "Gingival margin for mesial (same as above)"
+        },
+        "probingDepth": {
+          "D": "Probing depth for distal in mm",
+          "C": "Probing depth for central in mm",
+          "M": "Probing depth for mesial in mm"
+        },
+        "bleedingOnProbing": {
+          "D": "True or False for bleeding on distal probing",
+          "C": "True or False for bleeding on central probing",
+          "M": "True or False for bleeding on mesial probing"
+        },
+        "plaqueIndex": {
+          "D": "True or False for plaque on distal",
+          "C": "True or False for plaque on central",
+          "M": "True or False for plaque on mesial"
+        },
+        "notes": "Any additional notes for this tooth"
+      }
+    ],
+    "notes": {
+      "generalObservations": "General notes and observations for the patient",
+      "treatmentPlan": [
+        "Recommendations for treatment",
+        "Next steps or follow-up actions"
+      ]
+    }
+  }
+  
